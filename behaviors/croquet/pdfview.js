@@ -13,7 +13,6 @@ class PDFActor {
         this.listen("changePage", "changePage");
         this.listen("scrollByPercent", "scrollByPercent");
         this.listen("requestScrollPosition", "requestScrollPosition");
-console.log(this);
     }
 
     viewJoined(viewId) {
